@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Варіант №3 !! Основний !! (підключення окремого файлу) -->
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 3</title>
+		<!-- Варіант №1 (тег style) -->
+		<!-- 
+		<style>
+			
+		</style>
+		 -->
+	</head>
+	<body>
+		<!-- Анатомія вкладенності -->
+		<!-- Батьківський елемент для тегів P та SPAN -->
+		<div>
+			<!-- Дочірній елемент першого рівня/безпосередній відносно тегу DIV -->
+			<p>
+				<!-- 
+					Дочірній елемент першого рівня/безпосередній для тегу P 
+					та елемент другого рівня (вкладеності) відносно тегу DIV
+				 -->
+				<span></span>
+			</p>
+		</div>
+
+		<!-- Шлях до файлів -->
+		<!-- <img src="img/home/01.png" alt=""> -->
+		<!-- Вкладеність -->
+		<!-- 
+		<h1>Заголовок</h1>
+		<div class="text">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
+			</p>
+			<p>
+				Lorem ipsum dolor sit am
+				et consectetur adipisicing elit. Quo nihil nulla mollitia consequuntur tenetur maiores quasi natus voluptate dolorem esse facilis fugiat eveniet, eaque illo at dolor, culpa perspiciatis ipsum?
+			</p>
+		</div>
+		<ul>
+			<li>Пункт</li>
+			<li>Пункт</li>
+			<li>Пункт</li>
+			<li>Пункт</li>
+			<li>Пункт</li>
+		</ul>
+		 -->
+		<!-- Виняток -->
+		<!-- У рядковий тег A ми МОЖЕМО вкладати конструкції, 
+			у тому числі з використанням блочних, будівельних тегів  -->
+		<!-- 
+		<a href="contacts.html">
+			<div>
+				<img src="" alt="">
+			</div>
+			<div>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur asperiores, laudantium nam vel, praesentium ut id minima autem architecto numquam similique suscipit consequatur quas harum libero? Error labore veritatis tempore.
+				</p>
+			</div>
+		</a>
+		 -->
+
+		<!-- Атрибути -->
+		<!-- class="ім'я ім'я". 
+			В значенні вказуємо довільне ім'я класу(сів).
+			Однакових класів може бути скільки завгодно
+		-->
+		<!-- 
+			Правила написання імені класу: 
+			0) ім'я довільне, але логічне - описує цей об'єкт
+			1) тільки латиниця (eng)
+			2) тільки маленьки (прописні) літери
+			3) пробіли у імені класу (коли в імені більше одного слова) замінюємо на "-" (дефіс)
+		-->
+		<!-- 
+		<div class="text">
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+		</div>
+		<div class="text">
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia enim amet eaque consequuntur suscipit debitis veniam, non cum repudiandae, obcaecati inventore possimus laboriosam voluptatum tempore autem assumenda nemo itaque.</p>
+		</div>
+		<div class="our-advantages">
+
+		</div>
+		 -->
+
+		<!-- Атрибут class може мати безліч значень розділених пробілом -->
+		<!-- 
+		<div class="text our-advantages">
+
+		</div>
+		 -->
+
+		<!-- Атрибут ID -->
+		<!-- 
+			ЗНАЧЕННЯ ID МАЄ БУТИ УНІКАЛЬНИМ НА СТОРІНЦІ !!!!!!!!!
+		 -->
+		<!-- 
+			Правила написання імені ID: 
+			0) ім'я довільне, але логічне - описує цей об'єкт
+			1) тільки латиниця (eng)
+			2) тільки маленьки (прописні) літери
+			3) пробіли у імені класу (коли в імені більше одного слова) замінюємо на "-" (дефіс)
+		-->
+		<!-- 
+		<div id="block"></div>
+		 -->
+		<!-- Може бути, але не варто -->
+		<!-- <div title="" class="block"></div> -->
+
+		<!-- Додаткові атрибути -->
+		<!-- title - довільний текст підказки, яка з'являється при наведенні на об'єкт -->
+		<!-- alt - довільний текст (опис) зображення -->
+		<!-- 
+		<a href="" title="Я підказка" target="_blank">
+			Я посилання
+		</a>
+		<img title="" src="" alt="Опис зображення">
+ 		-->
+		<!-- Взаємодія HREF + ID -->
+		<!-- 
+		<div id="top" class="text">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed, veniam odit natus odio repudiandae officiis. Mollitia qui laudantium alias aliquid necessitatibus aliquam, quaerat sequi odio, facere inventore, ex rem!</p>
+		</div>
+		<a href="#top" class="link">Наверх ^</a>
+		 -->
+
+		<!-- Введення в CSS -->
+		<h1>Я заголовок</h1>
+		<h2>Підрозділи:</h2>
+		<ul>
+			<li>
+				<a href="">Підрозділ №1</a>
+			</li>
+			<li>
+				<a href="">Підрозділ №2</a>
+			</li>
+			<li>
+				<a href="">Підрозділ №3</a>
+			</li>
+		</ul>
+		<div class="text">
+			<!--Варіант №2 (рядковий метод) (Атрибут style) -->
+			<p> <!-- style="пишемо стилі" -->
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
+			</p>
+		</div>
+		<div class="lesson">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate possimus culpa eius molestias! Fugit impedit incidunt doloribus sit at. Explicabo nam, consectetur velit quae culpa rerum error quis excepturi.
+			</p>
+		</div>
+	</body>
+</html>

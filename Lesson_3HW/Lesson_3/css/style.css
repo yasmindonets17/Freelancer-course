@@ -1,0 +1,46 @@
+
+* {
+	margin: 20px;
+	background-color: rgb(246, 230, 125);
+}
+
+h1{
+	font-size: 50px;
+}
+div {
+	 color: rgb(114, 101, 101);
+}
+li{
+	list-style-type: none;
+}
+.geografy li{
+	list-style-type:georgian;
+}
+a{
+	color: rgb(0, 0, 128);
+	text-decoration: none;
+}
+
+a:hover{
+	color:red;
+}
+p.text{
+	 color: rgb(7, 54, 141); 
+	 font-size: 30px;
+}
+.size{
+	width: 800px;
+	height: 500px;
+}
+
+span.named,
+.date{
+	color:  rgb(50, 126, 202);
+}
+
+div h2, h3{
+	text-decoration: underline;
+}
+
+
+
