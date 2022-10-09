@@ -1,0 +1,187 @@
+body{
+	font-family: "Gotham Pro";
+}
+
+
+header{
+	font-family: 'Mulish', sans-serif;
+	background-color: rgb(209, 223, 229);
+	font-size: 24px;
+	color: blue;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+main{
+	background-color: rgb(53, 50, 50);
+	font-size: 18px;
+	color: antiquewhite;
+}
+h1,
+h2{
+	font-family: 'Mulish', sans-serif;
+	font-weight: normal;
+	color: yellow;
+	font-size: 25px;
+	margin: 5px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+
+header h1{
+	font-size: 40px;
+	color: blueviolet;
+	font-weight: 700;
+	font-style: italic;
+}
+header p{
+	font-weight: 500;
+}
+span{
+	font-weight: normal;
+	font-style: normal;
+}
+a:hover{
+	color: yellow;
+	font-weight: 700;
+}
+header p span.date{
+	color: rgb(21, 120, 120);
+	font-weight: 700;
+}
+
+header p span.distance{
+	color: brown;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 18px;
+}
+nav{
+	background-color: rgb(204, 157, 157);
+}
+nav ul li a{
+	color: black;
+	padding: 10px;
+}
+#star{
+	color: blue;
+	font-size: 40px;
+}
+#star:hover{
+	color: rgb(80, 80, 159);
+	font-style: italic;
+}
+.names .names-title{
+	font-size: 50px;
+	padding: 20px;
+	text-decoration: overline;
+}
+.names{
+	font-size: 40px;
+	text-align: right;
+	background-color: rgb(136, 80, 80);
+	padding: 10px;
+}
+
+.list-ch li::first-letter {
+	color: aliceblue;
+}
+.characteristics ul li{
+	color: black;
+	padding: 10px;
+	font-style: italic;
+
+}
+.characteristics .through{
+	color: blueviolet;
+	padding: 10px;
+	text-decoration: line-through lavender;
+}
+.characteristics p{
+	text-align: center;
+	margin: 10px;
+}
+p .day{
+	font-size: 40px;
+	text-decoration: underline;
+	background-color: rgb(149, 66, 66);
+}
+#explore-moon{
+	font-size: 40px;
+}
+.explore div p {
+	font-style: italic;
+	color: greenyellow;
+}
+.explore div p span{
+	color: aquamarine;
+}
+.explore div p span.scientist{
+	color: blue;
+}
+.explore div p.red{
+	color: red;
+	text-align: right;
+}
+.paragragh .red{
+	color: rgb(190, 84, 84);
+	background-color: #fff;
+}
+.moon-from .moon-from-paragraf p{
+	color: blue;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*--------- Підключення шрифтів ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro.woff2") format("woff2"), url("../fonts/GothamPro.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro-Italic.woff2") format("woff2"), url("../fonts/GothamPro-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro-Medium.woff2") format("woff2"), url("../fonts/GothamPro-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro-Medium.woff2") format("woff2"), url("../fonts/GothamPro-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro-Bold.woff2") format("woff2"), url("../fonts/GothamPro-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url("../fonts/GothamPro-Bold.woff2") format("woff2"), url("../fonts/GothamPro-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+

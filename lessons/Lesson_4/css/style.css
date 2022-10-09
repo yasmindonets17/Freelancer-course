@@ -1,0 +1,94 @@
+/* Комбінація класів */
+/* text ТА lesson */
+/*
+.text,
+.lesson{
+	color: red;
+}
+*/
+/* text ТА lesson ОДНОЧАСНО!!! */
+/*
+.text.lesson{
+	color: red;
+}
+*/
+
+/* Вкладеність класів */
+/*
+.text .lesson {
+	color: red;
+}
+*/
+
+/* -------- ПРІОРИТЕТ СЕЛЕКТОРІВ ------------ */
+/*
+Основні правила формування пріоритетів: 
+1) У випадку рівнозначних селекторів більший 
+пріоритет буде у останього по коду.
+2) Більший пріоритет завжди буде у селектора,
+який звужує (уточює, конкретизує) пошук (запит).
+3) Пріоритет у рядкових (inline) стилів (атрибут style="") вищий ніж у стилів з окремого файлу (наприклад style.css)
+4) Флаг !important перезаписує пріоритет (не рекомендується)
+*/
+
+/* ==================== */
+/*
+../ - вийти з папки на один рівень вище
+*/
+/* ======================= */
+
+
+/* ====================== ШРИФТИ =============================== */
+
+
+
+/*--------- Підключення шрифтів ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+	font-family: "CircularStd";
+}
+
+
+.title{
+	font-family: "Qwitcher Grypen";
+}
+
+
+
+/* -------- CSS-властивості шрифтів ------------ */
+
+
+
+/* -------- CSS-властивості тексту ------------ */
+
